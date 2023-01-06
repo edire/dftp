@@ -2,11 +2,11 @@
 from setuptools import setup
 setup(
     name='dftp',
-    version='0.0.1',
+    version='0.0.2',
     author='Eric Di Re',
     description='Dire Analytics Custom FTP Connections.',
     url='https://github.com/edire/dftp.git',
     python_requires='>=3.9',
     packages=['dftp'],
-    install_requires=['paramiko', 'stat']
+    install_requires=['paramiko']
 )
